@@ -1,0 +1,49 @@
+{
+  "name": "lite-audio-manager",
+  "author": "Zahary Shinikchiev <shinikchiev@yahoo.com>",
+  "version": "1.0.0",
+  "description": "Robust Howler.js audio manager with iOS unlock, category stopping, pitch variation, fade-safe teardown, and mute events.",
+  "type": "module",
+  "main": "AudioManager.js",
+  "types": "AudioManager.d.ts",
+  "exports": {
+    ".": {
+      "types": "./AudioManager.d.ts",
+      "import": "./AudioManager.js",
+      "default": "./AudioManager.js"
+    }
+  },
+  "files": [
+    "AudioManager.js",
+    "AudioManager.d.ts",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "keywords": [
+    "audio",
+    "sound",
+    "howler",
+    "howlerjs",
+    "audio-manager",
+    "game-audio",
+    "ios-unlock",
+    "web-audio",
+    "sfx",
+    "music",
+    "fade",
+    "category"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "howler": "^2.2.4"
+  },
+  "devDependencies": {
+    "vitest": "^1.0.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
